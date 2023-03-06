@@ -14,7 +14,7 @@ Danach bitte der Anleitung unter [hier](https://learn.microsoft.com/en-us/azure/
 
 Anschließend bitte Ihren eigenen FH-User als B2B Externen User in Azure AD einladen. Dazu bitte [hier](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/add-users-administrator) dem Link folgen und die Anleitung befolgen. Stellen Sie bitte sicher, dass der User in der Gruppe "Externe" angelegt wird. Entweder direkt bei der Einladung oder nachträglich. (Gruppe müssen Sie zuerst erstellen)
 
-### 2\. EmailReader
+### 3\. EmailReader
 
 Folgen Sie der Anleitung von Tobias Zimmergren [hier](https://zimmergren.net/reading-emails-with-microsoft-graph-using-net/) und erstellen Sie eine Console App, die Emails aus dem Posteingang ausliest. Bitte beachten Sie, dass Sie im Gegensatz zum Blog Post den Code aus diesem GitHub Repository verwenden.
 
