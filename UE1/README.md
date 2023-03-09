@@ -19,3 +19,5 @@ Anschließend bitte Ihren eigenen FH-User als B2B Externen User in Azure AD einl
 Folgen Sie der Anleitung von Tobias Zimmergren [hier](https://zimmergren.net/reading-emails-with-microsoft-graph-using-net/) und erstellen Sie eine Console App, die Emails aus dem Posteingang ausliest. Bitte beachten Sie, dass Sie im Gegensatz zum Blog Post den Code aus diesem GitHub Repository verwenden.
 
 Hint: Um mit User Secrets in Visual Studio Code zu arbeiten, bitte die Extension ".NET Core User Secrets" installieren. Damit können Sie die User Secrets Datei über einen Rechtsklick auf das Projekt (.csproj) und dann auf `Manage User Secrets` klicken.
+
+Hint 2: sollte bei Ihnen ein Problem bei "dotnet/nuget restore" auftreten, und die Fehlermeldung darauf hinweisen, dass unterschiedliche dotnet SDK Versionen installiert sind, dann bitte mit "dotnet new globaljson" eine lokale config erstellen, die im Projekt definiert welche SDK Version verwendet werden soll. Ist bei mir am Mac notwendig gewesen.
