@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Console", "Test.Console\Test.Console.csproj", "{5CF4E2C3-DDA9-4679-AE0A-0E861058B9EA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZFunc", "AZFunc\AZFunc.csproj", "{8527C167-B89F-4A5F-A2CA-76AAD88E9DAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5CF4E2C3-DDA9-4679-AE0A-0E861058B9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF4E2C3-DDA9-4679-AE0A-0E861058B9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF4E2C3-DDA9-4679-AE0A-0E861058B9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8527C167-B89F-4A5F-A2CA-76AAD88E9DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8527C167-B89F-4A5F-A2CA-76AAD88E9DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8527C167-B89F-4A5F-A2CA-76AAD88E9DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8527C167-B89F-4A5F-A2CA-76AAD88E9DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
