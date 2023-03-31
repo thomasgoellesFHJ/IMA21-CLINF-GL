@@ -12,6 +12,8 @@ using Azure.Security.KeyVault.Secrets;
 using WebApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Pull in KeyVault secrets
 builder.Configuration.AddAzureKeyVault(new Uri(builder.Configuration.GetValue<string>("KeyVaultUrl")), new DefaultAzureCredential());
 
 // Add services to the container.
